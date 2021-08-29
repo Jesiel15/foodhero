@@ -1,0 +1,42 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Resources/Player.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Resources/Objetos/Piso Ciano.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Resources/Objetos/Parede.tscn" type="PackedScene" id=3]
+
+[node name="World" type="YSort"]
+
+[node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( 489.683, 361.972 )
+
+[node name="YSort" type="YSort" parent="."]
+
+[node name="Parede2" parent="YSort" instance=ExtResource( 3 )]
+position = Vector2( 751.589, 277.649 )
+
+[node name="Parede3" parent="YSort" instance=ExtResource( 3 )]
+position = Vector2( 1007.42, 406.357 )
+
+[node name="Parede" parent="YSort" instance=ExtResource( 3 )]
+position = Vector2( 1262.74, 533.99 )
+
+[node name="Piso" type="Node2D" parent="."]
+position = Vector2( 92.7583, 173.624 )
+
+[node name="Piso Ciano" parent="Piso" instance=ExtResource( 2 )]
+position = Vector2( 510.194, 325.063 )
+
+[node name="Piso Ciano2" parent="Piso" instance=ExtResource( 2 )]
+position = Vector2( 252.791, 454.185 )
+
+[node name="Piso Ciano4" parent="Piso" instance=ExtResource( 2 )]
+position = Vector2( 766.146, 453.826 )
+
+[node name="Piso Ciano3" parent="Piso" instance=ExtResource( 2 )]
+position = Vector2( 1022.32, 582.337 )
+
+[node name="Piso Ciano5" parent="Piso" instance=ExtResource( 2 )]
+position = Vector2( 509.54, 583.757 )
+
+[node name="Piso Ciano6" parent="Piso" instance=ExtResource( 2 )]
+position = Vector2( 767.203, 712.335 )
