@@ -1,0 +1,77 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Resources/Imagens/Paredes_Pisos/Quina_Parede_Ciano.png" type="Texture" id=1]
+[ext_resource path="res://Resources/Imagens/Paredes_Pisos/Piso_Ciano.png" type="Texture" id=2]
+[ext_resource path="res://Resources/Imagens/Paredes_Pisos/Parede_Ciano.png" type="Texture" id=3]
+[ext_resource path="res://Resources/Imagens/Paredes_Pisos/Pisos/Textura Madeira.png" type="Texture" id=4]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Textura Madeira" type="Sprite" parent="."]
+position = Vector2( 287.923, 895.406 )
+texture = ExtResource( 4 )
+hframes = 4
+
+[node name="Quina_Parede_Ciano2" type="Sprite" parent="."]
+position = Vector2( 0, -216.62 )
+texture = ExtResource( 1 )
+offset = Vector2( -5, -260 )
+hframes = 4
+frame = 2
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Quina_Parede_Ciano2"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Quina_Parede_Ciano2/StaticBody2D"]
+polygon = PoolVector2Array( -261.082, -131.405, -216.416, -110.4, -0.792267, -218.1, 211.447, -111.98, 250, -132.38, 251.882, -197.841, -0.402832, -316.642, -262.031, -203.18 )
+
+[node name="Quina_Parede_Ciano3" type="Sprite" parent="."]
+position = Vector2( 395, 530 )
+texture = ExtResource( 1 )
+offset = Vector2( -5, -260 )
+hframes = 4
+frame = 1
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Quina_Parede_Ciano3"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Quina_Parede_Ciano3/StaticBody2D"]
+position = Vector2( 0, -0.594604 )
+polygon = PoolVector2Array( -46.5, -23.9054, -4, -4.4054, 250, -131.905, 248.708, -199.445, 9.32263, -295.199, -48, -237.405, 160.827, -136.532 )
+
+[node name="Parede_Ciano2" type="Sprite" parent="."]
+position = Vector2( 827.442, 495.558 )
+texture = ExtResource( 3 )
+offset = Vector2( 210, -260 )
+hframes = 4
+frame = 2
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Parede_Ciano2"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Parede_Ciano2/StaticBody2D"]
+polygon = PoolVector2Array( 60.2101, -267.021, 60.2101, -184.477, 318.339, -56.6761, 358.466, -77.0707, 358.7, -133.721 )
+
+[node name="Quina_Parede_Ciano4" type="Sprite" parent="."]
+position = Vector2( -396.277, 547.162 )
+texture = ExtResource( 1 )
+offset = Vector2( -0.00820923, -257.126 )
+hframes = 4
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Quina_Parede_Ciano4"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Quina_Parede_Ciano4/StaticBody2D"]
+polygon = PoolVector2Array( -256.068, -130.607, -256.068, -205.442, 0.065033, -82.9439, 255.753, -197.87, 255.753, -130.607, 0.510712, -0.0903931 )
+
+[node name="Parede_Ciano" type="Sprite" parent="."]
+position = Vector2( -791.864, -0.495 )
+texture = ExtResource( 3 )
+offset = Vector2( -8.39581, -154.812 )
+hframes = 4
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Parede_Ciano"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Parede_Ciano/StaticBody2D"]
+position = Vector2( -1.68176, 0 )
+polygon = PoolVector2Array( 145.194, -22.841, 144.092, 30.3907, 102.987, 50.2345, -154.314, -78.6824, -153.894, -164.107 )
+
+[node name="Piso_Ciano" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+hframes = 4

@@ -1,0 +1,183 @@
+[gd_resource type="TileSet" load_steps=13 format=2]
+
+[ext_resource path="res://Resources/Imagens/Paredes_Pisos/Quina_Parede_Ciano.png" type="Texture" id=1]
+[ext_resource path="res://Resources/Imagens/Paredes_Pisos/Parede_Ciano.png" type="Texture" id=2]
+[ext_resource path="res://Resources/Imagens/Paredes_Pisos/Piso_Ciano.png" type="Texture" id=3]
+[ext_resource path="res://Resources/Imagens/Paredes_Pisos/Pisos/Textura Madeira.png" type="Texture" id=4]
+
+[sub_resource type="ConvexPolygonShape2D" id=1]
+points = PoolVector2Array( -256.068, -130.607, -256.068, -205.442, 0.065033, -82.9439, 0.510712, -0.0903931 )
+
+[sub_resource type="ConvexPolygonShape2D" id=2]
+points = PoolVector2Array( 255.753, -130.607, 0.510712, -0.0903931, 0.065033, -82.9439, 255.753, -197.87 )
+
+[sub_resource type="ConvexPolygonShape2D" id=9]
+points = PoolVector2Array( 145.194, -22.841, 144.092, 30.3907, 102.987, 50.2345, -154.314, -78.6824, -153.894, -164.107 )
+
+[sub_resource type="ConvexPolygonShape2D" id=10]
+points = PoolVector2Array( 358.7, -133.721, 358.466, -77.0707, 318.339, -56.6761, 60.2101, -184.477, 60.2101, -267.021 )
+
+[sub_resource type="ConvexPolygonShape2D" id=5]
+points = PoolVector2Array( -4, -4.4054, -46.5, -23.9054, 160.827, -136.532, 250, -131.905 )
+
+[sub_resource type="ConvexPolygonShape2D" id=6]
+points = PoolVector2Array( 160.827, -136.532, -48, -237.405, 9.32263, -295.199, 248.708, -199.445, 250, -131.905 )
+
+[sub_resource type="ConvexPolygonShape2D" id=7]
+points = PoolVector2Array( -216.416, -110.4, -261.082, -131.405, -262.031, -203.18, -0.402832, -316.642, -0.792267, -218.1 )
+
+[sub_resource type="ConvexPolygonShape2D" id=8]
+points = PoolVector2Array( 211.447, -111.98, -0.792267, -218.1, -0.402832, -316.642, 251.882, -197.841, 250, -132.38 )
+
+[resource]
+0/name = "Quina_Parede_Ciano4"
+0/texture = ExtResource( 1 )
+0/tex_offset = Vector2( -0.00820923, -257.126 )
+0/modulate = Color( 1, 1, 1, 1 )
+0/region = Rect2( 0, 0, 521, 521 )
+0/tile_mode = 0
+0/occluder_offset = Vector2( 260.5, 260.5 )
+0/navigation_offset = Vector2( 260.5, 260.5 )
+0/shape_offset = Vector2( 260.5, 260.5 )
+0/shape_transform = Transform2D( 1, 0, 0, 1, 260.5, 260.5 )
+0/shape = SubResource( 1 )
+0/shape_one_way = false
+0/shape_one_way_margin = 1.0
+0/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 1 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 260.5, 260.5 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 2 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 260.5, 260.5 )
+} ]
+0/z_index = 0
+1/name = "Parede_Ciano"
+1/texture = ExtResource( 2 )
+1/tex_offset = Vector2( -8.39581, -154.812 )
+1/modulate = Color( 1, 1, 1, 1 )
+1/region = Rect2( 0, 0, 305, 413 )
+1/tile_mode = 0
+1/occluder_offset = Vector2( 152.5, 206.5 )
+1/navigation_offset = Vector2( 152.5, 206.5 )
+1/shape_offset = Vector2( 150.818, 206.5 )
+1/shape_transform = Transform2D( 1, 0, 0, 1, 150.818, 206.5 )
+1/shape = SubResource( 9 )
+1/shape_one_way = false
+1/shape_one_way_margin = 1.0
+1/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 9 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 150.818, 206.5 )
+} ]
+1/z_index = 0
+2/name = "Piso_Ciano"
+2/texture = ExtResource( 3 )
+2/tex_offset = Vector2( 0, 0 )
+2/modulate = Color( 1, 1, 1, 1 )
+2/region = Rect2( 0, 0, 521, 305 )
+2/tile_mode = 0
+2/occluder_offset = Vector2( 260.5, 152.5 )
+2/navigation_offset = Vector2( 260.5, 152.5 )
+2/shape_offset = Vector2( 0, 0 )
+2/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+2/shape_one_way = false
+2/shape_one_way_margin = 0.0
+2/shapes = [  ]
+2/z_index = 0
+3/name = "Parede_Ciano2"
+3/texture = ExtResource( 2 )
+3/tex_offset = Vector2( 210, -260 )
+3/modulate = Color( 1, 1, 1, 1 )
+3/region = Rect2( 610, 0, 305, 413 )
+3/tile_mode = 0
+3/occluder_offset = Vector2( 152.5, 206.5 )
+3/navigation_offset = Vector2( 152.5, 206.5 )
+3/shape_offset = Vector2( 152.5, 206.5 )
+3/shape_transform = Transform2D( 1, 0, 0, 1, 152.5, 206.5 )
+3/shape = SubResource( 10 )
+3/shape_one_way = false
+3/shape_one_way_margin = 1.0
+3/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 10 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 152.5, 206.5 )
+} ]
+3/z_index = 0
+4/name = "Quina_Parede_Ciano3"
+4/texture = ExtResource( 1 )
+4/tex_offset = Vector2( -5, -260 )
+4/modulate = Color( 1, 1, 1, 1 )
+4/region = Rect2( 521, 0, 521, 521 )
+4/tile_mode = 0
+4/occluder_offset = Vector2( 260.5, 260.5 )
+4/navigation_offset = Vector2( 260.5, 260.5 )
+4/shape_offset = Vector2( 260.5, 259.905 )
+4/shape_transform = Transform2D( 1, 0, 0, 1, 260.5, 259.905 )
+4/shape = SubResource( 5 )
+4/shape_one_way = false
+4/shape_one_way_margin = 1.0
+4/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 5 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 260.5, 259.905 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 6 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 260.5, 259.905 )
+} ]
+4/z_index = 0
+5/name = "Quina_Parede_Ciano2"
+5/texture = ExtResource( 1 )
+5/tex_offset = Vector2( -5, -260 )
+5/modulate = Color( 1, 1, 1, 1 )
+5/region = Rect2( 1042, 0, 521, 521 )
+5/tile_mode = 0
+5/occluder_offset = Vector2( 260.5, 260.5 )
+5/navigation_offset = Vector2( 260.5, 260.5 )
+5/shape_offset = Vector2( 260.5, 260.5 )
+5/shape_transform = Transform2D( 1, 0, 0, 1, 260.5, 260.5 )
+5/shape = SubResource( 7 )
+5/shape_one_way = false
+5/shape_one_way_margin = 1.0
+5/shapes = [ {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 7 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 260.5, 260.5 )
+}, {
+"autotile_coord": Vector2( 0, 0 ),
+"one_way": false,
+"one_way_margin": 1.0,
+"shape": SubResource( 8 ),
+"shape_transform": Transform2D( 1, 0, 0, 1, 260.5, 260.5 )
+} ]
+5/z_index = 0
+6/name = "Textura Madeira"
+6/texture = ExtResource( 4 )
+6/tex_offset = Vector2( 0, 0 )
+6/modulate = Color( 1, 1, 1, 1 )
+6/region = Rect2( 0, 0, 521, 305 )
+6/tile_mode = 0
+6/occluder_offset = Vector2( 260.5, 152.5 )
+6/navigation_offset = Vector2( 260.5, 152.5 )
+6/shape_offset = Vector2( 0, 0 )
+6/shape_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
+6/shape_one_way = false
+6/shape_one_way_margin = 0.0
+6/shapes = [  ]
+6/z_index = 0
